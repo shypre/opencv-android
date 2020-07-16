@@ -1,7 +1,7 @@
 # opencv-android
 
-## Update
-OpenCV v4.2.0 and v4.3.0 (with and without contribution packages) are also now available. 
+
+> **Update**: OpenCV v4.2.0 and v4.3.0 (with and without contribution packages) are also now available. 
 
 Easy way to integrate OpenCv into your Android project via Gradle.  
 **No NDK dependency needed** - just include this library and you are good to go.  
