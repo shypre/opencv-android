@@ -14,6 +14,11 @@ import org.opencv.ximgproc.DisparityFilter;
  * left-right-consistency-based confidence to refine the results in half-occlusions and uniform areas.
  */
 public class DisparityWLSFilter extends DisparityFilter {
+    
+    public DisparityWLSFilter createDisparityWLSFilter(StereoMatcher matcher_left) {
+        DisparityWLSFilter filter = createDisparityWLSFilter_0(matcher_left);
+        return filter;
+    }
 
     protected DisparityWLSFilter(long addr) { super(addr); }
 
